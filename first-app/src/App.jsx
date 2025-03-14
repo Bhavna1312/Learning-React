@@ -1,10 +1,8 @@
+import Navbar from "./components/navbar";
 function App() {
   return (
     <>
-      <div>
-        <img src="harry.jpg" alt="Harry Potter" />
-      </div>
-      <div className="">Harry</div>
+      <Navbar />
     </>
   );
 }
