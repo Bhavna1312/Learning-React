@@ -1,3 +1,5 @@
-div{
+div.footer{
     text-align: center;
+    position:fixed;
+    bottom:0;
 }
