@@ -4,7 +4,7 @@ import "./Footer.css";
 const Footer = () => {
   return (
     <div className="footer">
-      Copyright @copy codewithharry.com | All rights reserved
+      Copyright &copy; www.codewithharry.com | All rights reserved
     </div>
   );
 };
