@@ -7,6 +7,9 @@ function App() {
       <Navbar />
       <div className="cards">
         <Card />
+        <Card />
+        <Card />
+        <Card />
       </div>
       <Footer />
     </>
