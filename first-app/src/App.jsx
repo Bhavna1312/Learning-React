@@ -6,7 +6,7 @@ function App() {
     <>
       <Navbar />
       <div className="cards">
-        <Card />
+        <Card title="card 1" description="card 2 desc" />
         <Card />
         <Card />
         <Card />
