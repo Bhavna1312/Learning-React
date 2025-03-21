@@ -6,10 +6,11 @@ function App() {
     <>
       <Navbar />
       <div className="cards">
+        <Card title="card 1" description="card 1 desc" />
+        <Card title="card 2" description="card 2 desc" />
         <Card title="card 1" description="card 2 desc" />
-        <Card />
-        <Card />
-        <Card />
+        <Card title="card 1" description="card 2 desc" />
+        <Card title="card 1" description="card 2 desc" />
       </div>
       <Footer />
     </>
