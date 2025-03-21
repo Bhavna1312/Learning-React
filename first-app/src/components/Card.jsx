@@ -7,7 +7,7 @@ const Card = (props) => {
       <img
         src="https://www.shutterstock.com/image-photo/igniting-innovation-harnessing-power-coding-600nw-2425426569.jpg"
         alt=""
-        width=""
+        width={233}
       />
       <h1>{props.title}</h1>
       <p>{props.description}</p>
