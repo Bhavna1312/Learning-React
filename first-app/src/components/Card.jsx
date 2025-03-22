@@ -3,7 +3,7 @@ import "./Card.css";
 
 const Card = (props) => {
   return (
-    <div className="card">
+    <div className="card" style={{ overflow: "hidden" }}>
       <img
         src="https://www.shutterstock.com/image-photo/igniting-innovation-harnessing-power-coding-600nw-2425426569.jpg"
         alt=""
