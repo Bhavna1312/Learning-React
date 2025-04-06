@@ -2,5 +2,6 @@
 
 This repository contains my React learning projects.
 
-## Projects
-- **first-app**: A simple React application.
+### Projects
+- react-basics: A simple React application.
+  
