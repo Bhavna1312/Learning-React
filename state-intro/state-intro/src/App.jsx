@@ -9,6 +9,13 @@ function App() {
   return (
     <>
       <div>The count is {count}</div>
+      <button
+        onClick={() => {
+          setCount();
+        }}
+      >
+        Update count
+      </button>
     </>
   );
 }
