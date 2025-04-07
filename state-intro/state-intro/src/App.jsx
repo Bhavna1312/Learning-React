@@ -11,7 +11,7 @@ function App() {
       <div>The count is {count}</div>
       <button
         onClick={() => {
-          setCount();
+          setCount(count + 1);
         }}
       >
         Update count
