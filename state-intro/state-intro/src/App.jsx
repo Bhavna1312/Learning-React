@@ -4,14 +4,14 @@ import viteLogo from "/vite.svg";
 import "./App.css";
 
 function App() {
-  const [count, setCount] = useState(10);
+  const [count, setCount] = useState(100);
 
   return (
     <>
       <div>The count is {count}</div>
       <button
         onClick={() => {
-          setCount(count + 1);
+          setCount(count ** 2);
         }}
       >
         Update count
